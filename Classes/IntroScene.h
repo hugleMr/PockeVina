@@ -1,8 +1,11 @@
+//  Created by Black3rry on 10/3/16.
+//  Copyright (c) 2015 Black3rry. All rights reserved.
+
 #ifndef __INTRO_SCENE_H__
 #define __INTRO_SCENE_H__
 
 #include "cocos2d.h"
-#include "StartScene.h"
+#include "LoginScene.h"
 
 USING_NS_CC;
 

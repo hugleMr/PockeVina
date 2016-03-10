@@ -1,3 +1,6 @@
+//  Created by Black3rry on 10/3/16.
+//  Copyright (c) 2015 Black3rry. All rights reserved.
+
 #include "IntroScene.h"
 
 
@@ -43,6 +46,6 @@ bool IntroScene::init()
 
 void IntroScene::gotoStartScene(float dt)
 {
-	auto startscene = StartScene::createScene();
-	Director::getInstance()->replaceScene(TransitionMoveInR::create(0.25f, startscene));
+	auto startscene = LoginScene::createScene();
+	Director::getInstance()->replaceScene(TransitionCrossFade::create(0.25f, startscene));
 }
